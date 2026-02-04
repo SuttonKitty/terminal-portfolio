@@ -1,2 +1,3 @@
-# terminal portfolio
-Sutton Fritz's creative portfolio inspired by the terminal
+# XR Repository
+
+Hiiiiiiiii! I am a senior in IDM with a focus in web development. I have no previous experience with Blender, Unreal, or 3D modeling, but I love to learn! I am very familiar with JavaScript with experience in React, p5.js, Leaflet, & vanilla JS. I have recently become interested in game development, so I hope to learn 3D asset creation from this course. In my free time, I enjoy building websites, knitting, hiking, listening to Björk, & playing video games (Dead by Daylight is my fave!).
