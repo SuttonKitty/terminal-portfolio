@@ -45,6 +45,14 @@ body {
     letter-spacing: 0.05em;
 }
 
+img {
+    border-radius: 3px;
+}
+
+video {
+    border-radius: 3px;
+}
+
 .main {
     width: 100%;
     display: flex;
@@ -59,10 +67,6 @@ body {
     gap: 2rem;
     justify-content: center;
 }
-
-/* #title {
-    width: fit-content;
-} */
 
 #name {
     opacity: 0.5;
@@ -82,12 +86,6 @@ body {
 }
 
 .vertical-img {
-    width: 100%;
-    height: auto;
-    border-radius: 3px;
-}
-
-.working-img {
     width: 100%;
     height: auto;
     border-radius: 3px;
@@ -169,11 +167,6 @@ body {
     opacity: 0.5;
 }
 
-.pics img {
-    width: 100%;
-    border-radius: 0.3rem;
-}
-
 .caption {
     padding-left: 2rem;
 }
@@ -217,18 +210,10 @@ body {
         gap: 1rem;
     }
 
-    /* #intro {
-        justify-content: space-between;
-        gap: 1rem;
-    } */
-
     .vertical-img {
         width: 50%;
+        border-radius: 3px;
     }
-/* 
-    #moi-img {
-        width: 100%;
-    } */
 
     .content {
         text-align: justify;
@@ -243,15 +228,7 @@ body {
         gap: 2rem;
     }
     
-    .pics img {
-        border-radius: 0.5rem;
-    }
-    
     .caption {
         padding-left: 3rem;
     }
-
-    /* #commit {
-        padding-top: 10rem;
-    } */
 }
