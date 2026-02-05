@@ -125,11 +125,16 @@ video {
     gap: 1.5rem;
 }
 
-.intro {
+/* .intro {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding-bottom: 0.5rem;
+} */
+
+.tilde {
+    opacity: 0.5;
+    text-align: center;
 }
 
 .card {
