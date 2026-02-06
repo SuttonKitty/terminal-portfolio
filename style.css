@@ -81,6 +81,10 @@ video {
     opacity: 0.5;
 }
 
+.info {
+    text-align: justify;
+}
+
 .caption {
     opacity: 0.5;
     font-size: 0.8rem;
