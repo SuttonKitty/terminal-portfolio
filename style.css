@@ -159,6 +159,11 @@ video {
     gap: 0.5rem;
 }
 
+#title {
+    text-decoration: none;
+    color: #F7F7F2;
+}
+
 .cd {
     display: flex;
     flex-direction: row;
