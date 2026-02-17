@@ -1,3 +1,7 @@
+html {
+    cursor: url("./assets/bunny.cur") 16 16, auto;
+}
+
 body {
     padding: 4rem;
     margin: 0;
@@ -9,7 +13,7 @@ body {
     scroll-behavior: smooth;
     font-size: 1rem;
     color: #2b393b;
-    cursor: url("./assets/bunny.cur") 16 16, pointer;
+    cursor: url("./assets/bunny.cur") 16 16, auto;
     overflow-x: hidden;
     background-image: url("./assets/portBg_lg.png");
     background-size: 155% auto;
@@ -72,14 +76,6 @@ video {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-}
-
-.main-index {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
 }
 
 #name {
@@ -220,7 +216,12 @@ video {
 
 
 @media (min-width: 600px) {
+    html {
+        cursor: url("./assets/bunny.cur") 16 16, auto;
+    }
+
     body {
+        cursor: url("./assets/bunny.cur") 16 16, auto;
         background-repeat: repeat-y;   
         background-size: 100% auto;   
         padding: 2rem 2rem 3rem 2rem;
@@ -229,18 +230,11 @@ video {
     .main {
         padding: 10rem 10rem 0 10rem;
         width: 40%;
+        /* height: 100%; */
         gap: 3rem;
         font-size: 1rem;
         justify-content: center;
-    }
-
-    .main-index {
-        padding: 10rem 10rem 0 10rem;
-        /* height: 70%; */
-        width: 40%;
-        gap: 3rem;
-        font-size: 1rem;
-        justify-content: center;
+        cursor: url("./assets/bunny.cur") 16 16, auto;
     }
 
     #title {
